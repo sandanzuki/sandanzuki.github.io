@@ -1,0 +1,112 @@
+<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
+
+::-webkit-scrollbar-track{background-color:#fff;}
+::-webkit-scrollbar-thumb{background-color:#94b9db; border:3px solid #fff;}
+::-webkit-scrollbar{width:7px; height:5px;}        
+
+body{
+    background:#f3f3f3; 
+}
+
+#ghlink{
+    position:fixed;
+    top:10px;
+    right:10px;
+    background:#fafafa;
+    border:1px solid #ddd;
+    font-family:calibri;
+    font-size:8px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    color:#565656;
+    padding:3px 7px;
+}
+
+#quote{
+    position:fixed;
+    margin-left:8px;
+    margin-top:-30px;
+    line-height:110%;
+    font-family:'Libre Baskerville', serif;
+    font-style:italic;
+    font-size:35px;
+    color:#565656;
+    text-shadow:2px 2px 1px #ccc;
+    z-index:50;
+}
+
+#qmark{
+    position:fixed;
+    margin-left:-40px;
+    margin-top:-55px;
+    line-height:110%;
+    font-style:italic;
+    letter-spacing:-16px;
+    font-size:100px;
+    color:#888;
+    z-index:90;
+}
+
+#credit{
+    position:fixed;
+    margin-left:530px;
+    margin-top:6px;
+    line-height:110%;
+    font-family:'Libre Baskerville', serif;
+    font-style:italic;
+    font-size:10px;
+    color:#888;
+    z-index:99;
+}
+
+#content{
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-left:-360px;
+    margin-top:-144px;
+    width:720px;
+    height:288px;
+    padding:10px;
+    border:1px solid #ddd;
+    background:#fafafa;
+}    
+
+
+#avatar img{
+    position:absolute;
+    margin-left:498px;
+    margin-top:41.5px;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    padding:5px;
+    border:1px solid #ddd;
+    background:#fff; 
+}
+
+#about{ 
+    position:absolute;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    width:450px;
+    height:250px;
+    border:1px solid #e4e4e4;
+    padding:8px;
+    font-family:calibri;
+    font-size:11px;
+    text-align: justify;
+    color:#565656;
+    overflow:auto;
+}    
+
+#about a{
+    color:#94b9db;
+    text-decoration:none;
+}
+
+#about a:hover{
+    color:#85a6c5;
+}
